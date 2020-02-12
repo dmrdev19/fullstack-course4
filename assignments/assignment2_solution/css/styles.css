@@ -1,0 +1,81 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.foodcard {
+	background-color: #00FF00;
+	font-size: 1.5em;
+	border: 3px solid black;
+}
+
+.foodinfo {
+	margin: 10px 10px 10px 10px;
+	clear:right;
+}
+
+.foodtitle {
+	float: right;
+	width: 40%;
+	text-align: center;
+	margin-top: 0px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+
+}
+
+#foodtitle1 {
+	background-color: pink;
+}
+
+#foodtitle2 {
+	background-color: gray;
+	
+}
+
+#foodtitle3 {
+	background-color: yellow;
+}
+
+@media (max-width: 767px) {
+
+	.foodcard {
+		margin: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#foodcard1 {
+		float: left;
+		width: 47%;
+		margin:10px 10px 10px 10px;
+
+	}
+
+	#foodcard2 {
+		float: right;
+		width: 47%;
+		margin:10px 10px 10px 0px;
+	}
+
+	#foodcard3 {
+		clear:both;
+		margin: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.foodcard {
+		width: 31%;
+		float: left;
+		margin: 10px;
+	}
+
+}
